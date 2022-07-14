@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.top__image__container {
+  background-color: rgb(32, 32, 32);
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+
+.top__image__container img {
+  width: 100vw;
+}
+
+.main__container {
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+  height: 600px;
+}
+
+.left__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -25px;
+
+}
+
+.timer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left__container h2 {
+  color: #6C63FF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.left__container p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.left__container button {
+  outline: none;
+  background-color: #6C63FF;
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: 150px;
+  transition: all ease .25s;
+}
+
+.left__container button:hover {
+  box-shadow: 3px 1px 10px rgba(111, 4, 233, 0.781);
+}
+
+.day,
+.hour,
+.minutes,
+.seconds {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+
+}
+
+h3 {
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.container__day,
+.container__hour,
+.container__minutes,
+.container__seconds {
+  text-align: center;
+}
+
+.right__container {
+  text-align: right;
+  width: 45%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+}
+
+.right__container img {
+  width: 400px
+}
+
+.bottom__image__container {
+  z-index: 1;
+  background-color: rgb(32, 32, 32);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
